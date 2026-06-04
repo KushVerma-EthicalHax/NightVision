@@ -1,103 +1,148 @@
-# 🌙 NightVision
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Platform-Termux-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge">
-</p>
+# 🌙 NIGHTVISION
 
-<p align="center">
-  <b>Advanced OSINT & Security Research Toolkit</b><br>
-  Developed by <b>Kush Verma (EthicalHax)</b>
-</p>
+### Advanced Camera Reconnaissance & OSINT Toolkit
 
----
+#### 👁️ SEE EVERYTHING • KNOW EVERYTHING
 
-## 📌 Overview
+Developed by **Kush Verma (EthicalHax)**
 
-NightVision is a Python-based reconnaissance and information-gathering toolkit designed for cybersecurity learning, research, and authorized security assessments.
-
-The project focuses on streamlining investigative workflows by combining multiple data-gathering capabilities into a single command-line interface.
-
-This project is intended for educational purposes, security research, and authorized testing environments only.
+</div>
 
 ---
 
-## ✨ Features
+## 🚀 What is NightVision?
 
-* Interactive command-line interface
-* Multiple reconnaissance modules
-* Information gathering workflows
-* OSINT-focused utilities
-* Lightweight and Termux-friendly
-* Python-based architecture
-* Modular design for future expansion
-* Easy deployment on Android (Termux) and Linux
+NightVision is an advanced reconnaissance toolkit designed for cybersecurity students, researchers, and security professionals.
+
+The framework helps identify network-connected camera systems, collect device intelligence, enumerate services, analyze exposed interfaces, and perform security assessments within authorized environments.
+
+Built specifically for **Termux**, **Linux**, and **Python** environments.
 
 ---
 
-## ⚠️ Disclaimer
+# ⚡ Available Operations
 
-This tool is provided strictly for:
+## 📡 [01] IP Camera Scanner
 
-* Educational purposes
-* Security research
-* Authorized penetration testing
-* Laboratory environments
+Discover camera devices and identify exposed services.
 
-Users are solely responsible for complying with local laws and regulations.
+**Features**
 
-The developer does not accept responsibility for misuse of this software.
-
----
-
-# 🛠 Requirements
-
-* Python 3.x
-* Git
-* Termux (Android) or Linux
+* Open Port Detection
+* Camera Service Discovery
+* Device Enumeration
+* Network Visibility
 
 ---
 
-# 📥 Installation
+## 🎯 [02] Camera Fingerprint
 
-## Step 1: Update Packages
+Identify camera vendor and device characteristics.
 
-```bash
-pkg update && pkg upgrade -y
-```
+**Features**
 
-## Step 2: Install Git
+* Brand Detection
+* Device Fingerprinting
+* Service Analysis
+* Product Identification
 
-```bash
-pkg install git -y
-```
+---
 
-## Step 3: Install Python
+## 🌐 [03] Login Page Hunter
 
-```bash
-pkg install python -y
-```
+Locate accessible web management interfaces.
 
-## Step 4: Clone Repository
+**Features**
+
+* Admin Panel Discovery
+* HTTP/HTTPS Detection
+* Interface Enumeration
+* Access Portal Identification
+
+---
+
+## 🔑 [04] Credential Analysis
+
+Analyze authentication configurations for security assessment purposes.
+
+**Features**
+
+* Authentication Review
+* Security Posture Assessment
+* Configuration Analysis
+
+---
+
+## 📹 [05] Stream Analyzer
+
+Enumerate available video streaming services.
+
+**Features**
+
+* RTSP Detection
+* HTTP Stream Discovery
+* Service Enumeration
+* Feed Analysis
+
+---
+
+## 🔍 [06] ONVIF Probe
+
+Gather information from ONVIF-enabled devices.
+
+**Features**
+
+* ONVIF Enumeration
+* Service Discovery
+* Device Information Collection
+* Protocol Analysis
+
+---
+
+## 🌎 [07] Network Range Scanner
+
+Scan an entire subnet for connected camera devices.
+
+**Features**
+
+* Subnet Discovery
+* Device Enumeration
+* Camera Detection
+* Network Mapping
+
+---
+
+## ⚡ [08] Full Auto Recon
+
+Execute multiple reconnaissance modules automatically.
+
+**Features**
+
+* Automated Workflow
+* Combined Intelligence Gathering
+* Unified Results
+* Fast Reconnaissance
+
+---
+
+# 💻 Installation
+
+### Clone Repository
 
 ```bash
 git clone https://github.com/KushVerma-EthicalHax/NightVision.git
-```
-
-## Step 5: Enter Directory
-
-```bash
 cd NightVision
 ```
 
-## Step 6: Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Step 7: Run NightVision
+### Launch NightVision
 
 ```bash
 python nightvision.py
@@ -105,91 +150,64 @@ python nightvision.py
 
 ---
 
-# 🚀 Usage
+# 🎯 Built For
 
-Launch the toolkit:
+✅ Cybersecurity Students
 
-```bash
-python nightvision.py
-```
+✅ Security Researchers
 
-Follow the on-screen menu and select the required module.
+✅ Ethical Hackers
 
----
+✅ OSINT Analysts
 
-# 📂 Project Structure
+✅ Bug Bounty Hunters
 
-```text
-NightVision/
-│
-├── nightvision.py
-├── README.md
-├── LICENSE
-├── requirements.txt
-└── screenshots/
-```
+✅ Network Administrators
 
 ---
 
-# 🔒 Security Notice
+# 📷 Core Capabilities
 
-Always obtain proper authorization before testing any network, device, application, or system.
-
-Unauthorized access attempts may violate laws and organizational policies.
+* Camera Discovery
+* Device Fingerprinting
+* Network Reconnaissance
+* Service Enumeration
+* ONVIF Analysis
+* Asset Discovery
+* Exposure Assessment
+* Automated Recon Workflows
 
 ---
 
 # 👨‍💻 Developer
 
-**Kush Verma**
+## Kush Verma
 
-Founder: EthicalHax
+Founder of **EthicalHax**
 
-Cybersecurity Researcher | OSINT Enthusiast | Security Educator
-
-GitHub:
-https://github.com/KushVerma-EthicalHax
+Cybersecurity Researcher • Security Educator • OSINT Enthusiast
 
 ---
 
-# 🌐 EthicalHax
+# ⚠️ Disclaimer
 
-EthicalHax is an initiative focused on cybersecurity awareness, ethical hacking education, OSINT research, and practical security learning.
+NightVision is intended for:
 
----
+* Educational Use
+* Security Research
+* Authorized Security Assessments
+* Laboratory Environments
 
-# 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes
-4. Push to your fork
-5. Open a Pull Request
+Users are responsible for ensuring all testing activities are performed with proper authorization.
 
 ---
 
-# ⭐ Support
+<div align="center">
 
-If you found this project useful:
+## ETHICALHAX
 
-⭐ Star the repository
+### Hack Ethically • Secure Digitally
 
-🍴 Fork the project
+⭐ Star the repository if you like the project.
 
-📢 Share it with the cybersecurity community
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
-
-See the LICENSE file for details.
-
----
-
-<p align="center">
-Built with ❤️ by Kush Verma | EthicalHax
-</p>
+</div>
